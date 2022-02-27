@@ -1,0 +1,30 @@
+
+.container1{
+    display: flex;
+    justify-content: center;
+    font-size: 3vw;
+    margin-top: 20px;
+
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 2vw;
+ 
+    
+ 
+
+}
+
+@media screen and ( max-width :1000px) {
+    .container1{
+        font-size: 7vw;
+    }
+    .container2{
+        font-size: 6vw;
+    }
+}
+
